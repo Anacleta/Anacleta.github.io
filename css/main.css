@@ -30,11 +30,11 @@ header{
 	float: right;
 	text-align: justify;
 }
+
 .favoritos{
 	overflow: scroll;
 	height: 300px;
 }
-
 .gato{
 	width: 210px;
 	height: 210px;
@@ -48,4 +48,5 @@ header{
 
 .footer{
 	background: url(../images/tile2.png);
+	text-align: center;
 }
