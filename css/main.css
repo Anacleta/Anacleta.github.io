@@ -1,6 +1,6 @@
-/**{outline: 1px solid green;}*/
- .container{background:lightblue;}
- body{background: #eee8aa;}
+*{outline: 1px solid green;}
+.container{background:lightblue;}
+body{background: #eee8aa;}
 h1, h2, h3, h4, .menu{
 	color: #a9268d;
 	text-align: center;
@@ -11,11 +11,12 @@ h1, h2, h3, h4, .menu{
 	margin: 20px 30px;
 }
 .list a {color: black;}
-.list a{transition: .5s;}
-.list a:hover{transform: scale(1.1)}
+.list a{transition: .7s;}
+.list a:hover{transform: scale(1.2)}
 
 header{
-	background: url(../images/background1.jpg) center center;
+	background: url(../images/background1.jpg) bottom ;
+	height: 300px;
 	text-align: center;
 }
 
@@ -25,15 +26,18 @@ header{
 }
 .perfil{
 	float: left;
+	margin: px;
 }
 .letras{
 	float: right;
 	text-align: justify;
+	
 }
-
+.parrafo{margin:20px 30px 100px; }
 .favoritos{
 	overflow: scroll;
-	height: 300px;
+	height: 350px;
+	padding: 15px 10px;
 }
 .gato{
 	width: 210px;
@@ -41,6 +45,7 @@ header{
 	border-radius: 100%;
 	padding: 2px;
 	border: dashed 2px #a9268d;
+	margin:15px 30px;
 }
 .favoritos{
 	text-align: center;
@@ -49,4 +54,8 @@ header{
 .footer{
 	background: url(../images/tile2.png);
 	text-align: center;
+	
+}
+.footer img{
+	margin: 20px 30px; 
 }
