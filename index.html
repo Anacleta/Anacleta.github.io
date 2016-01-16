@@ -4,25 +4,28 @@
   <meta charset="UTF-8">
   <title>Prettyfy by Mercy</title>
   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 
 <nav class="inicio">
-  <!--<div class="opacity">-->
-    <div class="container">
-      <ul class="nav nav-pills">
+  <div class="opacity">
+    <div class="">
+      
+      <ul class="nav nav-pills pull-right">
            <li><a href="#acerca-de-mi"><b>ACERCA DE MÍ</b></a></li>
            <li><a href="#portafolio"><b>PORTAFOLIO</a></b></li>
            <li><a href="#contact"><b>CONTACTO</a></b></li>
+           <li><a href="#contact"><b>CONTACTO</a></b></li>
 
       </ul>
+<h3>mercy</h3>
     </div>
-  <!--</div>-->
+  </div>
 </nav>
 
 <div class="container text">
@@ -47,6 +50,13 @@
 <div class="container text">
   <h2>Acerca de Mí</h2>
     <p>Actualmente estudio desarrollo de páginas web, tambien me gustaria estudiar diseño gráfico. <br>Considero que spy una persona super amable, y paciente (casi siempre). <br> Me gusta mucho escuchar música, tomar fotografias, ir de viaje, dibujar, ver peliculas,leer y caminar entre otras cosas. </p>
+</div>
+
+<div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
 </div>
 
 <!--<section>
@@ -75,7 +85,7 @@
     </div>
     <div class="col-sm-4 cont-image">
       <div class="porta">
-      <a href="http:/mercyjulieth.github.io/freelan"><img class=" img-responsive" src="images/5a.jpg" alt="freelancer"><p><b>Freelancer</b></p></a>
+      <a href="http:/mercyjulieth.github.io/Freelan"><img class=" img-responsive" src="images/5a.jpg" alt="freelancer"><p><b>Freelancer</b></p></a>
       </div>
     </div>
     <div class="col-sm-4 cont-image">
@@ -113,4 +123,21 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/menu-hiding.js"></script>
+    <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '852223021541752',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 </html>
