@@ -1,12 +1,137 @@
-.inicio{
-	background: url(../images/404-657x360.png ) center center;
-	width: 100%;
-	height: 670px;
-	background-size: cover;
+/**{outline: 1px solid green;}*/
+body{top: 50px;position: relative;
+	background: #E6E6FA; 
 }
-p{
-	font-size: 30px;
-	margin-top: 550px;
-	position: absolute;
+p, h2, h1,h4{text-align: center;}
+h1,h2,h4{color: #339999;}
+.name{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 100px;
+	top: 180px;
+	position: relative;
+	margin: 0;
+}
+.developer{
+	font-size: 27px;
+	color: #6B6B63;
+	top: 180px;
+	position: relative;
+	font-family: verdana;
+}
+.menu{
+	padding: 5px 0;
+	background:#242323;
+}
+.list li{
+	font-size: 20px;
+}
+.navbar-default .navbar-nav>li>a{
+	color: white;
+	font-family: 'Architects Daughter', cursive;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color:#339999;
+}
+.code{font-size: 30px;bottom: 5px;position: relative;}
+/*IMAGEN++++++++++++++++++++++++++++++++++++++++++++++*/
+.inicio{
+	background: url(../images/Do+Fresh+Work+Desk+Top.jpg) center center;
 	width: 100%;
+	height: 680px;
+}
+.opacity{
+	background: rgba(0,0,0,0.1);
+	width: 100%;
+	height: 680px;
+}
+/*ACERCA DE MI ++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.sub{
+	padding-bottom: 50px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 35px;
+	text-decoration: underline;
+}
+#acerca-de-mi, #portafolio, #contact{
+	padding:60px 0 70px;
+}
+
+.photo{height:450px;width: 100%;}
+.cont-photo{
+	box-sizing:border-box;
+	padding: 30px;
+}
+.letras{
+	font-size: 20px;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-bottom: 20px;
+}
+.hab{
+	font-family: 'Architects Daughter', cursive;
+	padding: 20px;
+}
+.habilidades{padding-top: 20px;background: #f4f4f4;}
+.habilidades img{
+	width: 100px;
+	height: 110px;
+	display: block;
+	margin: auto;	
+}
+.a{
+	padding: 10px;
+	font-family: 'Architects Daughter', cursive;
+}
+
+/*PORTAFOLIO+++++++++++++++++++++++++++++++++++++++++++++*/
+.porta p {margin-top:5px;}
+#portafolio{
+	background: #f4f4f4;
+	background: rgba(0,0,0,0.1);
+}
+.cont-image img{
+	width: 100%;
+	height: 400px;
+}
+.cont-image a{
+	color:black;
+	text-decoration: none;
+}
+.porta{
+	box-sizing:border-box;
+	padding: 10px;
+	background: white;
+	margin: 10px 0 0px;
+	border: solid #CCCCFF 1px;
+}
+.porta:hover{
+	transform:scale(1.1);
+	transition:1s;
+}
+.pi{color:;font-family: 'Architects Daughter', cursive;}
+
+/*CONTACTO+++++++++++++++++++++++++++++++++++++++++++++s*/
+
+/*REDES+++++++++++++++++++++++++++++++++++++++++++++++++*/
+.redes{
+	padding: 20px;
+}
+.redes i{
+	font-size: 30px;
+	width: 50px;
+	height: 50px;
+	color: black;
+	background: #008080;
+	border-radius: 100%;
+	padding-top: 10px;
+	/*border: 2px solid black;*/
+}
+.redes i:hover{
+	background: black; 
+	color: #008080;
+	transform:scale(1.1);
+	transition:.5s;
+}
+.footer1{
+	background: black;
+	color: white;
+	padding: 20px 0;
 }
